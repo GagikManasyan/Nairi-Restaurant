@@ -1,0 +1,27 @@
+.about {
+  margin-top: 65px;
+  height: 100vh;
+}
+.about h2 {
+  font-family: "Cormorant-Garamond";
+  font-size: 56px;
+  text-align: center;
+}
+.about span {
+  margin-bottom: 15px;
+  font-family: "Jost";
+  color: #ff9d00;
+}
+.about p {
+  font-family: "Jost";
+  text-align: center;
+  line-height: 2;
+  width: 50%;
+}
+.welcome-heading {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

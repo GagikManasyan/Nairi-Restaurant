@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./css/header.css";
 
 function Header() {

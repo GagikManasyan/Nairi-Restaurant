@@ -20,8 +20,9 @@ function Home() {
   };
 
   return (
-    <div className="home" style={backgroundImageStyle}>
+    <div className="home">
       <Header />
+      <div className="home-background" style={backgroundImageStyle}></div>
       <div className="overlay">
         <h1>
           try traditional <br /> armenian food

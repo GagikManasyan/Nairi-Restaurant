@@ -1,14 +1,18 @@
 .home {
   position: relative;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.home-background {
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: opacity(0.85);
+  filter: grayscale(0.3) blur(2px);
 }
 .home h1 {
   font-family: "Jost";
@@ -18,6 +22,7 @@
   text-transform: capitalize;
 }
 .overlay {
+  position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,4 +35,5 @@
   border: none;
   border-radius: 3px;
   font-weight: 900;
+  cursor: pointer;
 }
