@@ -1,0 +1,52 @@
+.home-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  background-color: #ffffff;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+nav ul li {
+  padding: 10px;
+}
+nav button {
+  position: relative;
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: "Jost";
+  font-size: 15px;
+  color: #2a2a2a;
+  cursor: pointer;
+}
+nav button:before {
+  content: "";
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  transition: 0.3s;
+}
+nav button:hover:before {
+  background: black;
+  width: 100%;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo img {
+  display: block;
+  box-sizing: border-box;
+  width: 120px;
+}
