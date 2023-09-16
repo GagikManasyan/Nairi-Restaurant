@@ -1,1 +1,125 @@
 @import url("./reset.css");
+.section {
+  margin-bottom: 55px;
+}
+h1 {
+  font-family: "Jost";
+  font-size: 75px;
+  text-transform: capitalize;
+  color: #ffff;
+  text-align: center;
+}
+h2 {
+  font-family: "Cormorant-Garamond";
+  font-size: 55px;
+  text-transform: uppercase;
+  color: #1e1e1e;
+  text-align: center;
+}
+h3 {
+  font-family: "Cormorant-Garamond";
+  font-size: 55px;
+  text-transform: uppercase;
+  color: #ffff;
+  text-align: center;
+}
+.org-text {
+  margin-bottom: 15px;
+  font-family: "Jost";
+  font-size: 20px;
+  font-weight: 500;
+  color: #ff9d00;
+  text-transform: capitalize;
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding: 10px;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  font-family: "Jost";
+  font-size: 15px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 810px) {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 35px;
+  }
+  button {
+    width: 170px;
+    height: 40px;
+  }
+  .org-text {
+    font-size: 15px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .menu-item {
+    font-size: 15px;
+  }
+  .menu-price {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 550px) {
+  #home-header nav {
+    display: none;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  button {
+    width: 115px;
+    height: 30px;
+    font-size: 12px;
+  }
+  .org-text {
+    font-size: 13px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .menu-item {
+    font-size: 15px;
+  }
+  .menu-price {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 370px) {
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  .org-text {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 290px) {
+  .menu-item {
+    font-size: 12px;
+  }
+  .menu-price {
+    font-size: 12px;
+  }
+}

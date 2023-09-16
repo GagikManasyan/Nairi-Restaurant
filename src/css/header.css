@@ -1,4 +1,4 @@
-.home-header {
+#home-header {
   position: absolute;
   top: 0;
   left: 0;
@@ -12,11 +12,13 @@
 nav ul {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 nav ul li {
   padding: 10px;
 }
-nav button {
+nav a {
   position: relative;
   background: none;
   border: none;
@@ -25,8 +27,9 @@ nav button {
   font-size: 15px;
   color: #2a2a2a;
   cursor: pointer;
+  text-decoration: none;
 }
-nav button:before {
+nav a:before {
   content: "";
   margin: 0 auto;
   position: absolute;
@@ -37,16 +40,18 @@ nav button:before {
   height: 2px;
   transition: 0.3s;
 }
-nav button:hover:before {
+nav a:hover:before {
   background: black;
   width: 100%;
 }
-.logo {
+#logo {
+  padding: 10px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
-.logo img {
+#logo img {
   display: block;
   box-sizing: border-box;
-  width: 120px;
+  width: 75px;
 }

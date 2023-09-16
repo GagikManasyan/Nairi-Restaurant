@@ -15,19 +15,19 @@ function Home() {
   }, []);
 
   const backgroundImageStyle = {
-    backgroundImage: `url('/images/foods/${images[currentImageIndex]}')`,
+    backgroundImage: `url('/images/foods-slider/${images[currentImageIndex]}')`,
     transition: "background-image 1s ease-in-out",
   };
 
   return (
-    <div className="home">
+    <div className="section" id="home">
       <Header />
       <div className="home-background" style={backgroundImageStyle}></div>
       <div className="overlay">
         <h1>
-          try traditional <br /> armenian food
+          traditional <br /> armenian food
         </h1>
-        <button id="discover-button">Discover More</button>
+        <button id="home-btn">Discover More</button>
       </div>
     </div>
   );

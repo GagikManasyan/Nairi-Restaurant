@@ -12,3 +12,17 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "GiveYouGlory";
+  src: url("/fonts/GiveYouGlory.ttf") format("woff2"),
+    url("/fonts/GiveYouGlory.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Freehand";
+  src: url("/fonts/Freehand.ttf") format("woff2"),
+    url("/fonts/Freehand.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
