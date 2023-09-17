@@ -9,16 +9,19 @@
   height: 75px;
   background-color: #ffffff;
 }
-nav ul {
+#mobile-nav {
+  display: none;
+}
+#reg-nav ul {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-nav ul li {
+#reg-nav ul li {
   padding: 10px;
 }
-nav a {
+#reg-nav a {
   position: relative;
   background: none;
   border: none;
@@ -29,7 +32,7 @@ nav a {
   cursor: pointer;
   text-decoration: none;
 }
-nav a:before {
+#reg-nav a:before {
   content: "";
   margin: 0 auto;
   position: absolute;
@@ -40,7 +43,7 @@ nav a:before {
   height: 2px;
   transition: 0.3s;
 }
-nav a:hover:before {
+#reg-nav a:hover:before {
   background: black;
   width: 100%;
 }

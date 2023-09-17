@@ -1,14 +1,9 @@
-import "./css/header.css";
+import React, { useState } from "react";
 
-function Header() {
+function MobileNav() {
   return (
-    <header id="home-header">
-      <div id="logo">
-        <a href="">
-          <img src="/images/logo.png" alt="" />
-        </a>
-      </div>
-      <nav id="reg-nav">
+    <div id="mobile-nav">
+      <nav>
         <ul>
           <li>
             <a href="">Home</a>
@@ -31,8 +26,7 @@ function Header() {
           </li>
         </ul>
       </nav>
-    </header>
+    </div>
   );
 }
-
-export default Header;
+export default MobileNav;

@@ -28,7 +28,9 @@ function About() {
           <h3>
             Nairi Restaurant <br /> Venue
           </h3>
-          <button id="venue-btn">Reserve Now</button>
+          <button className="mn-btn" id="venue-btn">
+            Reserve Now
+          </button>
         </div>
       </div>
     </div>
