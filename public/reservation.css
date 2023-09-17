@@ -66,6 +66,7 @@ button {
   font-size: 15px;
   font-weight: 900;
   cursor: pointer;
+  color: #262626;
 }
 @media screen and (max-width: 530px) {
   .reservation-body {
