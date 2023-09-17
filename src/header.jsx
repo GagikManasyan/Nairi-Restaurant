@@ -23,9 +23,11 @@ function Header() {
             <a href="">Contact Us</a>
           </li>
           <li>
-            <a href="/reservation.html" target="_blank">
-              Online Reservation
-            </a>
+            <li>
+              <a href="reservation.html" target="_blank">
+                Online Reservation
+              </a>
+            </li>
           </li>
         </ul>
       </nav>
