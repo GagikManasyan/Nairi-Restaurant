@@ -67,7 +67,7 @@ button {
   font-weight: 900;
   cursor: pointer;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 530px) {
   .reservation-body {
     padding: 35px;
     width: unset;
