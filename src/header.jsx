@@ -24,7 +24,7 @@ function Header() {
           </li>
           <li>
             <li>
-              <a href="reservation.html" target="_blank">
+              <a href="/reservation.html" target="_blank">
                 Online Reservation
               </a>
             </li>
