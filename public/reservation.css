@@ -51,7 +51,7 @@ form {
 }
 .banner::after {
   content: "";
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: #ff9d00;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -119,7 +119,7 @@ button {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background: #0087cc;
+  background: #ff9d00;
   font-size: 16px;
   color: #fff;
   cursor: pointer;
