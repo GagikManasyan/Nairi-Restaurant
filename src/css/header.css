@@ -1,7 +1,8 @@
 #home-header {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
+  z-index: 1;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -47,13 +48,10 @@
   background: black;
   width: 100%;
 }
-#logo {
+.logo {
   padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-#logo img {
+.logo img {
   display: block;
   box-sizing: border-box;
   width: 75px;

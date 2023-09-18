@@ -1,0 +1,56 @@
+#contact-us {
+  display: flex;
+  justify-content: center;
+  background: black;
+  color: white;
+}
+#contact-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 70%;
+  padding: 40px;
+}
+
+#contact-menu h4 {
+  font-family: "Cormorant-Garamond";
+  font-size: 40px;
+  font-weight: bold;
+}
+.footer-heading {
+  display: block;
+  font-family: "Jost";
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+#contact-menu img {
+  width: 125px;
+}
+#socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  font-size: 25px;
+}
+#socials li {
+  margin-bottom: 15px;
+}
+#address {
+  font-family: "Jost";
+  padding: 10px;
+  font-size: 13px;
+}
+#address svg {
+  width: 15px;
+  padding-right: 10px;
+}
+#address li {
+  margin-bottom: 15px;
+}
+#address li a {
+  color: white;
+  text-decoration: none;
+}
