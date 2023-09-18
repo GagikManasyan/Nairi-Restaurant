@@ -13,6 +13,7 @@ h1 {
   text-align: center;
 }
 h2 {
+  margin-bottom: 20px;
   font-family: "Cormorant-Garamond";
   font-size: 55px;
   text-transform: uppercase;
