@@ -38,7 +38,9 @@ function Home() {
           traditional <br /> armenian food
         </h1>
         <button id="home-btn" className="mn-btn">
-          Discover More
+          <a href="https://www.facebook.com/nairirestaurant1" target="_blank">
+            Discover More
+          </a>
         </button>
       </div>
     </div>

@@ -22,10 +22,20 @@ function Contact() {
         <li>
           <ul id="socials">
             <li>
-              <FontAwesomeIcon icon={faFacebook} />
+              <a
+                href="https://www.facebook.com/nairirestaurant1"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faFacebook} />
+              </a>
             </li>
             <li>
-              <FontAwesomeIcon icon={faInstagram} />
+              <a
+                href="https://www.instagram.com/nairirestaurant/"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faInstagram} />
+              </a>
             </li>
           </ul>
         </li>

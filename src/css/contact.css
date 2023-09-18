@@ -38,6 +38,9 @@
 #socials li {
   margin-bottom: 15px;
 }
+#socials a {
+  color: #ffffff;
+}
 #address {
   font-family: "Jost";
   padding: 10px;

@@ -42,3 +42,7 @@
   border: 1px solid #ff9d00;
   color: #ff9d00;
 }
+#venue-btn a {
+  color: #ff9d00;
+  text-decoration: none;
+}

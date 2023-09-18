@@ -64,7 +64,7 @@ function About() {
             Nairi Restaurant <br /> Venue
           </h3>
           <button className="mn-btn" id="venue-btn">
-            Reserve Now
+            <a href="tel:096100096">Reserve Now</a>
           </button>
         </div>
       </div>

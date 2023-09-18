@@ -23,5 +23,8 @@
 #home-btn {
   background-color: #ffffff;
   border: none;
+}
+#home-btn a {
   color: #262626;
+  text-decoration: none;
 }
