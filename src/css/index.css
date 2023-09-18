@@ -1,4 +1,7 @@
 @import url("/reset.css");
+* {
+  scroll-margin-top: 75px;
+}
 .section {
   margin-bottom: 55px;
 }
