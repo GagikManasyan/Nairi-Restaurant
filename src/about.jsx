@@ -44,11 +44,14 @@ function About() {
           WELCOME TO <br /> NAIRI RESTAURANT
         </h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam
-          fugit unde exercitationem ipsum ab magni suscipit eaque quae!
-          Cupiditate minus debitis facilis hic nam maxime explicabo. Laborum
-          ducimus provident odio cum tempore voluptates suscipit animi ipsa? Sed
-          id illum rem?
+          Nairi restaurant has been operating and providing its services to our
+          customers for over 13 years. We are masters at Armenian cuisine and
+          providing excelent services for our guests. The restaurant was founded
+          in 2010 at Jrvezh Street. From the day of its foundation we have
+          always held ourselves to high standarts of kitchen and customer
+          service.We have wonderful venue that can be a great place for special
+          events. Nairi restaurant has two main halls. The big hall can hold
+          events for up to 150 people and the small hall for up to 30 people.
         </p>
       </div>
       <div className="venue">
