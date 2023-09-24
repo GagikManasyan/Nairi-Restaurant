@@ -1,9 +1,15 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { useTranslation } from "react-i18next";
 import "./css/header.css";
 
 function Header({ toggleMobileNav }) {
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
   return (
     <header id="home-header">
       <button id="nav-btn" onClick={toggleMobileNav}>
@@ -24,7 +30,7 @@ function Header({ toggleMobileNav }) {
                   .scrollIntoView({ behavior: "smooth" });
               }}
             >
-              Home
+              {t("home")}
             </a>
           </li>
           <li>
@@ -35,7 +41,7 @@ function Header({ toggleMobileNav }) {
                   .scrollIntoView({ behavior: "smooth" });
               }}
             >
-              About
+              {t("about")}
             </a>
           </li>
           <li>
@@ -46,7 +52,7 @@ function Header({ toggleMobileNav }) {
                   .scrollIntoView({ behavior: "smooth" });
               }}
             >
-              Menu
+              {t("menu")}
             </a>
           </li>
           <li>
@@ -57,13 +63,32 @@ function Header({ toggleMobileNav }) {
                   .scrollIntoView({ behavior: "smooth" });
               }}
             >
-              Contact Us
+              {t("contact us")}
             </a>
           </li>
           <li>
             <a href="/reservation.html" target="_blank">
-              Online Reservation
+              {t("online reservation")}
             </a>
+          </li>
+        </ul>
+      </nav>
+      <nav id="lng-nav">
+        <ul>
+          <li>
+            <button onClick={() => changeLanguage("en")}>
+              <span>ENG</span>
+            </button>
+          </li>
+          <li>
+            <button onClick={() => changeLanguage("hy")}>
+              <span>ARM</span>
+            </button>
+          </li>
+          <li>
+            <button onClick={() => changeLanguage("ru")}>
+              <span>RUS</span>
+            </button>
           </li>
         </ul>
       </nav>

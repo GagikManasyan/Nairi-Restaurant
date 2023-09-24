@@ -1,6 +1,11 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 function MobileNav({ toggleMobileNav }) {
+  const { t, i18n } = useTranslation();
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
   return (
     <div id="mobile-nav">
       <nav>
@@ -13,7 +18,7 @@ function MobileNav({ toggleMobileNav }) {
                   .scrollIntoView({ behavior: "smooth" });
               }}
             >
-              Home
+              {t("home")}
             </a>
           </li>
           <li>
@@ -24,7 +29,7 @@ function MobileNav({ toggleMobileNav }) {
                   .scrollIntoView({ behavior: "smooth" });
               }}
             >
-              About
+              {t("about")}
             </a>
           </li>
           <li>
@@ -35,7 +40,7 @@ function MobileNav({ toggleMobileNav }) {
                   .scrollIntoView({ behavior: "smooth" });
               }}
             >
-              Menu
+              {t("menu")}
             </a>
           </li>
           <li>
@@ -46,13 +51,32 @@ function MobileNav({ toggleMobileNav }) {
                   .scrollIntoView({ behavior: "smooth" });
               }}
             >
-              Contact Us
+              {t("contact us")}
             </a>
           </li>
           <li>
             <a href="/reservation.html" target="_blank">
-              Online Reservation
+              {t("online reservation")}
             </a>
+          </li>
+        </ul>
+      </nav>
+      <nav id="lng-nav">
+        <ul>
+          <li>
+            <button onClick={() => changeLanguage("en")}>
+              <span>ENG</span>
+            </button>
+          </li>
+          <li>
+            <button onClick={() => changeLanguage("hy")}>
+              <span>ARM</span>
+            </button>
+          </li>
+          <li>
+            <button onClick={() => changeLanguage("ru")}>
+              <span>RUS</span>
+            </button>
           </li>
         </ul>
       </nav>

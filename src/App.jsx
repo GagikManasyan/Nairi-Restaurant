@@ -5,6 +5,7 @@ import About from "./about.jsx";
 import Menu from "./menu.jsx";
 import Contact from "./contact.jsx";
 import React, { useState } from "react";
+import "../i18n.js";
 
 import "./css/App.css";
 

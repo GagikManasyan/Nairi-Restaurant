@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import "./css/home.css";
 
 function Home() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const images = ["food1.webp", "food2.webp", "food3.webp"];
+  const { t, i18n } = useTranslation();
 
   useEffect(() => {
     const preloadImages = () => {
@@ -35,11 +37,11 @@ function Home() {
       <div className="home-background" style={backgroundImageStyle}></div>
       <div className="overlay">
         <h1>
-          traditional <br /> armenian food
+          {t("traditional")} <br /> {t("armenian food")}
         </h1>
         <button id="home-btn" className="mn-btn">
           <a href="https://www.facebook.com/nairirestaurant1" target="_blank">
-            Discover More
+            {t("discover more")}
           </a>
         </button>
       </div>

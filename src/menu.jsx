@@ -1,10 +1,12 @@
 import React from "react";
 import "./css/menu.css";
+import { useTranslation } from "react-i18next";
 
 function Menu() {
+  const { t } = useTranslation();
   return (
     <div className="section" id="menu">
-      <h2>Menu</h2>
+      <h2>{t("menu")}</h2>
 
       <div id="menu-list">
         <span className="menu-heading">BBQ</span>

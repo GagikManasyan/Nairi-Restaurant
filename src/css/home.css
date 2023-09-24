@@ -27,4 +27,5 @@
 #home-btn a {
   color: #262626;
   text-decoration: none;
+  text-transform: capitalize;
 }
