@@ -17,12 +17,6 @@ function About() {
       images.forEach((image) => {
         const img = new Image();
         img.src = `/images/venue/${image}`;
-        img.onload = () => {
-          console.log(`Image loaded: ${image}`);
-        };
-        img.onerror = () => {
-          console.error(`Failed to preload image: ${image}`);
-        };
       });
     };
     preloadImages();
@@ -40,6 +34,7 @@ function About() {
   const backgroundImageStyle = {
     backgroundImage: `url('/images/venue/${images[currentImageIndex]}')`,
     transition: "background-image 1s ease-in-out",
+    loading: "lazy",
   };
   return (
     <div className="section" id="about">

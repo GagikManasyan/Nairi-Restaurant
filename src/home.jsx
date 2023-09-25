@@ -5,7 +5,7 @@ import "./css/home.css";
 function Home() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const images = ["food1.webp", "food2.webp", "food3.webp"];
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   useEffect(() => {
     const preloadImages = () => {
