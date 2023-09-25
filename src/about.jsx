@@ -41,7 +41,7 @@ function About() {
       {i18n.language === "hy" ? (
         <style>
           {`
-              span, p, h1 {
+              span, p, h1, a {
                 font-family: 'NotoSans' !important;;
               }
           `}
