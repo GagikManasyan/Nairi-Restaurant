@@ -11,7 +11,7 @@ function About() {
     "venue4.jpg",
     "venue5.jpg",
   ];
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   useEffect(() => {
     const preloadImages = () => {
       images.forEach((image) => {
@@ -38,6 +38,15 @@ function About() {
   };
   return (
     <div className="section" id="about">
+      {i18n.language === "hy" ? (
+        <style>
+          {`
+              span, p, h1 {
+                font-family: 'NotoSans' !important;;
+              }
+          `}
+        </style>
+      ) : null}
       <div className="welcome">
         <span className="org-text">
           {t("making armenian traditional food for over 13 years")};

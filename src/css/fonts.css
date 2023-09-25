@@ -26,3 +26,10 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "NotoSans";
+  src: url("/fonts/NotoSans_wght.ttf") format("woff2"),
+    url("/fonts/NotoSans_wght.ttff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
