@@ -47,7 +47,10 @@ function About() {
         <style>
           {`
               span, p, h1, a {
-                font-family: 'NotoSans' !important;;
+                font-family: 'NotoSans' !important;
+              }
+              #mobile-nav a {
+                font-size: 20px !important;
               }
           `}
         </style>
